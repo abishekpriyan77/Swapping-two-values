@@ -19,10 +19,19 @@ Print both the values it would be interchanged
 End the program
 ## PROGRAM:
 
+import numpy as np
+
+A=[[1,3],[2,5]]
+
+B=np.array([5,-3])
+
+c=np.linalg.solve(A,B)
+
+print(c)
 
 
 ## RESULT:
-Thus the swapping of two values are successfully executed
+![Screenshot (130)](https://github.com/user-attachments/assets/ef7b8662-01ba-4a0d-a519-6e16e4ba649b)
 
 
 
